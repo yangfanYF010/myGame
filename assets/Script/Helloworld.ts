@@ -7,10 +7,11 @@ export default class Helloworld extends cc.Component {
     label: cc.Label = null;
 
     @property
-    text: string = 'hello';
+    text: string = '';
 
     start () {
         // init logic
-        this.label.string = this.text;
+        this.label.string = "你好，世界第一帅";
+        //ddd
     }
 }
